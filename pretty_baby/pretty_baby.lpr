@@ -1,0 +1,33 @@
+program pretty_baby;
+
+{$mode objfpc}{$H+}
+
+uses
+  {$IFDEF UNIX}{$IFDEF UseCThreads}
+  cthreads,
+  {$ENDIF}{$ENDIF}
+  Interfaces, // this includes the LCL widgetset
+  Forms, 
+pretty_baby_image_manip, thumbctrl, bgrabitmappack, uecontrols, pretty_baby_main,
+  pretty_baby_basket, pretty_baby_image, pretty_baby_image_list,
+  pretty_progress, pretty_splash_screen, pretty_baby_db, pretty_baby_gif;
+
+{$R *.res}
+var
+  splash_screen : Tpretty_splash;
+begin
+  RequireDerivedFormResource := True;
+  Application.Initialize;
+  splash_screen := Tpretty_splash.Create( Application ) ;
+  splash_screen.Show;
+  splash_screen.Update;
+  Application.ProcessMessages;
+  Application.CreateForm(Tfrm_pretty_baby_main, frm_pretty_baby_main);
+  Application.CreateForm(Tpretty_status, pretty_status);
+  Application.CreateForm(Tfrm_image_list, frm_image_list);
+  Application.CreateForm(Tbaby_basket, baby_basket);
+  Application.CreateForm(Tfrm_pretty_baby_db, frm_pretty_baby_db);
+  splash_screen.Hide;
+  Application.Run;
+end.
+

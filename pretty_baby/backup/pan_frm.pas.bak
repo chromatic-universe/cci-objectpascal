@@ -1,0 +1,114 @@
+unit pan_frm;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, ExtCtrls,
+  StdCtrls;
+
+type
+
+  { Tpretty_baby_pan }
+
+  Tpretty_baby_pan = class(TForm)
+    pretty_image: TImage;
+    ScrollBox1: TScrollBox;
+    procedure FormCreate(Sender: TObject);
+    procedure FormMouseDown(Sender: TObject; Button: TMouseButton;
+      Shift: TShiftState; X, Y: Integer);
+    procedure pretty_imageMouseDown(Sender: TObject; Button: TMouseButton;
+      Shift: TShiftState; X, Y: Integer);
+    procedure pretty_imageMouseMove(Sender: TObject; Shift: TShiftState; X, Y: Integer
+      );
+  private
+    { private declarations }
+  public
+    LX: Integer;
+    LY: Integer;
+  end;
+
+var
+  pretty_baby_pan: Tpretty_baby_pan;
+  SX: Integer;
+  SY: Integer;
+
+
+implementation
+
+{$R *.lfm}
+
+{ Tpretty_baby_pan }
+
+uses pretty_baby_main;
+
+procedure Tpretty_baby_pan.pretty_imageMouseDown(Sender: TObject;
+  Button: TMouseButton; Shift: TShiftState; X, Y: Integer);
+begin
+       SX := X;  // X start co-ordinate
+       SY := Y;  // Y start co-ordinate
+
+        caption := Concat( 'X=' , IntToStr( SX ) , ' Y=' , IntToStr( SY ) );
+end;
+
+procedure Tpretty_baby_pan.FormCreate(Sender: TObject);
+begin
+      ScrollBox1.DoubleBuffered:= true;
+      pretty_image.Top := 0;
+      pretty_image.Left := 0;
+
+
+end;
+
+procedure Tpretty_baby_pan.FormMouseDown(Sender: TObject; Button: TMouseButton;
+  Shift: TShiftState; X, Y: Integer);
+begin
+      //******************************************************************
+      //* When the left button of the mouse is pressed - we need to trap *
+      //* what the EXACT pixel point is. This gives a reference point to *
+      //* calculate ALL subsequent mouse movement WHILE THE LEFT MOUSE   *
+      //* BUTTON IS DEPRESSED. In other words we'll know by how much the *
+      //* mouse is moving in it's selected DRAG mode                     *
+      //******************************************************************
+      SX := X;  // X start co-ordinate
+      SY := Y;  // Y start co-ordinate
+end;
+
+procedure Tpretty_baby_pan.pretty_imageMouseMove(Sender: TObject; Shift: TShiftState;
+  X, Y: Integer);
+var
+    NX: Integer;
+    NY: Integer;
+begin
+
+    if not (ssLeft in Shift) then
+     Exit;
+
+    //*********************************************************
+    //* Calculate what our new X, Y point of origin should be *
+    //*********************************************************
+    NX := pretty_image.Left + X - SX;
+    NY := pretty_image.Top + Y - SY;
+    //***********************************************************
+    //* If the range of our new calculated X point falls within *
+    //* 0 - width of image, and negative (image width - scroll  *
+    //* box width) then set new point of origin X to NX         *
+    //***********************************************************
+    if (NX < 0) and (NX > LX) then
+      pretty_image.Left := NX;
+    //***********************************************************
+    //* If the range of our new calculated Y point falls within *
+    //* 0 - height of image, and negative (image height - scroll*
+    //* box height) then set new point of origin Y to NY        *
+    //***********************************************************
+    if (NY < 0) and (NY > LY) then
+      pretty_image.Top := NY;
+    //***********************************************
+    //* ALL DONE!!! IMAGE HAS BEEN RE-POSITIONED!!! *
+    //***********************************************
+
+end;
+
+end.
+

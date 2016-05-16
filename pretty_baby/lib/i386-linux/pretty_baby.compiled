@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <Compiler Value="/usr/bin/fpc" Date="1363527598"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -vewnhi -Fi/cci/chromatic_universe/chromatic_universe/trunk/free_pascal/pretty_baby/lib/i386-linux -Fl/usr/share/lazarus/1.4.4/components/bgrabitmap/lib/i386-win32/2.6.2 -Fl/opt/gnome/lib -Fu/dev_docs/src/pan/ScrollBoxPanning -Fu/usr/share/lazarus/1.0.12/components/thumb/lib/i386-linux -Fu/usr/share/lazarus/1.0.12/components/ue/source -Fu/usr/share/lazarus/1.0.12/components/bgrabitmap8.7/lib/i386-linux/2.6.2 -Fu/usr/share/lazarus/1.0.12/lcl/units/i386-linux/gtk2 -Fu/usr/share/lazarus/1.0.12/lcl/units/i386-linux -Fu/usr/share/lazarus/1.0.12/components/lazutils/lib/i386-linux -Fu/usr/share/lazarus/1.0.12/packager/units/i386-linux -Fu/cci/chromatic_universe/chromatic_universe/trunk/free_pascal/pretty_baby/ -FU/cci/chromatic_universe/chromatic_universe/trunk/free_pascal/pretty_baby/lib/i386-linux/ -l -dUseCThreads -dUseCThreads -dLCL -dLCLgtk2 pretty_baby.lpr"/>
+</CONFIG>

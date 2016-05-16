@@ -1,0 +1,274 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="30">
+      <Unit0>
+        <Filename Value="pretty_baby.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <TopLine Value="4"/>
+        <CursorPos X="84" Y="13"/>
+        <UsageCount Value="200"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="pretty_baby_main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frm_pretty_baby_main"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="pretty_baby_main"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1091"/>
+        <CursorPos X="33" Y="1117"/>
+        <UsageCount Value="200"/>
+        <Bookmarks Count="2">
+          <Item0 X="1" Y="451" ID="4"/>
+          <Item1 X="16" Y="1028" ID="3"/>
+        </Bookmarks>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="pretty_baby_basket.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="baby_basket"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="pretty_baby_basket"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="384"/>
+        <CursorPos X="1" Y="384"/>
+        <UsageCount Value="238"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="pretty_baby_image.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="pretty_image_frm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <TopLine Value="151"/>
+        <CursorPos X="138" Y="158"/>
+        <UsageCount Value="201"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="pretty_baby_image_list.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frm_image_list"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <TopLine Value="6"/>
+        <CursorPos X="17" Y="10"/>
+        <UsageCount Value="210"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="pretty_progress.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="pretty_status"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <TopLine Value="18"/>
+        <CursorPos X="51" Y="35"/>
+        <UsageCount Value="202"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="pretty_splash_screen.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="pretty_splash"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <CursorPos X="39" Y="20"/>
+        <UsageCount Value="207"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="pretty_baby_image_manip.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frm_manip"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <TopLine Value="181"/>
+        <CursorPos X="69" Y="188"/>
+        <UsageCount Value="55"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="pretty_baby_db.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frm_pretty_baby_db"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <CursorPos X="12" Y="5"/>
+        <UsageCount Value="51"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="pretty_baby_gif.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frm_pretty_baby_gif"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="pretty_baby_gif"/>
+        <EditorIndex Value="4"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="175"/>
+        <CursorPos X="48" Y="34"/>
+        <UsageCount Value="47"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="pretty_baby_gif.lfm"/>
+        <CursorPos X="121" Y="22"/>
+        <UsageCount Value="19"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="/usr/share/lazarus/1.0.12/lcl/include/treeview.inc"/>
+        <TopLine Value="379"/>
+        <CursorPos X="50" Y="402"/>
+        <UsageCount Value="108"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="vtree_impl.pas"/>
+        <ComponentName Value="frm_vtree"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <TopLine Value="71"/>
+        <CursorPos X="31" Y="87"/>
+        <UsageCount Value="103"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="/usr/share/fpcsrc/2.6.2/rtl/unix/bunxovlh.inc"/>
+        <TopLine Value="8"/>
+        <CursorPos X="67" Y="24"/>
+        <UsageCount Value="107"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="/usr/share/lazarus/1.0.12/components/thumbview/fpreadjpegthumb.pas"/>
+        <UnitName Value="FPReadJPEGthumb"/>
+        <TopLine Value="76"/>
+        <CursorPos X="100" Y="97"/>
+        <UsageCount Value="100"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="/usr/share/lazarus/1.0.12/lcl/include/control.inc"/>
+        <TopLine Value="3913"/>
+        <CursorPos X="15" Y="3922"/>
+        <UsageCount Value="8"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="/dev_docs/src/pan/pan_frm.lfm"/>
+        <CursorPos X="44" Y="7"/>
+        <UsageCount Value="18"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="pan_frm.lfm"/>
+        <UsageCount Value="22"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="/dev_docs/src/pan/pan_frm.pas"/>
+        <TopLine Value="77"/>
+        <CursorPos X="36" Y="87"/>
+        <UsageCount Value="8"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="pretty_baby_basket.lfm"/>
+        <UsageCount Value="8"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="pretty_baby_gif_frm.lfm"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <TopLine Value="79"/>
+        <CursorPos X="75" Y="9"/>
+        <UsageCount Value="8"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="../../../../staging/testgif/fmain.lfm"/>
+        <CursorPos X="55" Y="95"/>
+        <UsageCount Value="19"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="../../../../staging/testgif/fmain.pas"/>
+        <TopLine Value="274"/>
+        <CursorPos X="18" Y="302"/>
+        <UsageCount Value="19"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="animatedgif.pas"/>
+        <UnitName Value="AnimatedGif"/>
+        <TopLine Value="1028"/>
+        <CursorPos X="55" Y="1050"/>
+        <UsageCount Value="17"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="/usr/share/lazarus/1.2.6/lcl/shellctrls.pas"/>
+        <UnitName Value="ShellCtrls"/>
+        <TopLine Value="341"/>
+        <CursorPos X="78" Y="344"/>
+        <UsageCount Value="10"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="/usr/share/lazarus/1.2.6/lcl/include/customform.inc"/>
+        <TopLine Value="993"/>
+        <CursorPos Y="1010"/>
+        <UsageCount Value="9"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="/usr/share/lazarus/1.2.6/components/bcbutton.pas"/>
+        <UnitName Value="BCButton"/>
+        <TopLine Value="413"/>
+        <CursorPos X="31" Y="373"/>
+        <UsageCount Value="12"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="/usr/share/lazarus/1.2.6/components/bctools.pas"/>
+        <UnitName Value="BCTools"/>
+        <TopLine Value="172"/>
+        <CursorPos X="16" Y="203"/>
+        <UsageCount Value="12"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="pretty_baby_main.lfm"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="/usr/share/lazarus/1.0.12/components/thumb/thumbcontrol.pas"/>
+        <UnitName Value="thumbcontrol"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="900"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit29>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="2" HistoryIndex="1">
+      <Position1>
+        <Filename Value="pretty_baby_gif.pas"/>
+        <Caret Line="146" Column="31" TopLine="122"/>
+      </Position1>
+      <Position2>
+        <Filename Value="pretty_baby_gif.pas"/>
+        <Caret Line="53" Column="6" TopLine="27"/>
+      </Position2>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>
