@@ -1,28 +1,28 @@
 object frm_pretty_baby_gif: Tfrm_pretty_baby_gif
-  Left = 318
+  Left = 548
   Height = 382
-  Top = 187
+  Top = 176
   Width = 580
   Caption = 'frm_pretty_baby_gif'
   ClientHeight = 382
   ClientWidth = 580
   OnCreate = FormCreate
   Position = poScreenCenter
-  LCLVersion = '1.0.12.0'
+  LCLVersion = '2.0.0.4'
   Visible = True
   object Label1: TLabel
     Left = 176
-    Height = 18
+    Height = 15
     Top = 43
-    Width = 39
+    Width = 43
     Caption = 'Mode :'
     ParentColor = False
   end
   object Label2: TLabel
     Left = 176
-    Height = 18
+    Height = 15
     Top = 12
-    Width = 75
+    Width = 88
     Caption = 'Zoom factor :'
     ParentColor = False
   end
@@ -93,7 +93,7 @@ object frm_pretty_baby_gif: Tfrm_pretty_baby_gif
   end
   object ComboBox_Mode: TComboBox
     Left = 232
-    Height = 31
+    Height = 27
     Top = 38
     Width = 342
     ItemHeight = 0
@@ -103,7 +103,7 @@ object frm_pretty_baby_gif: Tfrm_pretty_baby_gif
   end
   object Edit_ZoomFactor: TEdit
     Left = 280
-    Height = 27
+    Height = 25
     Top = 8
     Width = 56
     TabOrder = 7

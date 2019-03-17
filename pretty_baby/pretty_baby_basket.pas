@@ -409,7 +409,7 @@ var
    j : integer;
    sub_item : TMenuItem;
 begin
-      if ( length( baby_tree.GetSelectedNodePath() ) <> 0 ) then
+      {if ( length( baby_tree.GetSelectedNodePath() ) <> 0 ) then
       begin
          baby_thumbs.Directory := baby_tree.GetSelectedNodePath();
          baby_thumbs.Invalidate;
@@ -449,7 +449,7 @@ begin
         sub_item.ImageIndex := 9;
         sub_item.OnClick := @main_view_update;
         frm_pretty_baby_main.mainmenu1.Items[2].Add( sub_item );
-     end;
+     end;   }
 end;
 
 procedure Tbaby_basket.baby_thumbsDragDrop(Sender, Source: TObject; X,

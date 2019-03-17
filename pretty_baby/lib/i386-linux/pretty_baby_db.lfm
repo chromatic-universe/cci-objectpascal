@@ -1,9 +1,0 @@
-object frm_pretty_baby_db: Tfrm_pretty_baby_db
-  Left = 707
-  Height = 240
-  Top = 353
-  Width = 320
-  Caption = 'pretty_baby_db'
-  Position = poScreenCenter
-  LCLVersion = '1.0.12.0'
-end
