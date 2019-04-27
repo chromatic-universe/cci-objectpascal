@@ -127,7 +127,6 @@ function process_files( dir : string; node : TTreeNode; var lst : TListBox ) : i
 var
   directory_ptr : PDir;
   dirent : PDirent;
-  entry : Longint;
   count : integer;
   next_node : TTreeNode;
   typ : integer;
@@ -140,7 +139,7 @@ begin
 
       lst.Items.Clear;
       repeat
-        entry := TellDir( directory_ptr );
+
         dirent := fpreaddir ( directory_ptr^ );
         if dirent <> nil then
         begin
@@ -164,7 +163,7 @@ function process_directory( var tree : TTreeView; dir : string; node : TTreeNode
 var
   directory_ptr : PDir;
   dirent : PDirent;
-  entry : Longint;
+
   count : integer;
   next_node : TTreeNode;
   idx : integer;
@@ -180,7 +179,7 @@ begin
             if directory_ptr = nil then exit;
 
             repeat
-              entry := TellDir( directory_ptr );
+
               dirent := fpreaddir ( directory_ptr^ );
 
               if dirent <> nil then
